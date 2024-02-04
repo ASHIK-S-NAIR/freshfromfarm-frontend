@@ -1,0 +1,55 @@
+/* thankyou section starts */
+
+.thankYou-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.thankYou-img {
+  height: 6em;
+  margin-bottom: 2.5em;
+}
+
+.thankYou-header {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.9em;
+}
+
+.thankYou-p {
+  font-size: 0.95rem;
+  color: var(--primary-color);
+  margin-bottom: 0.6em;
+}
+
+.thankYou-p-span {
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.thankYou-p-span.underline {
+  text-decoration: underline;
+}
+
+.thankYou-btn {
+  background-color: var(--yellow-color);
+  margin-top: 2em;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 1em 3em; 
+  font-weight: 800;
+  font-size: 0.938rem;
+  border-radius: 5px;
+  transition: 200ms ease-in-out;
+  border: 1px solid var(--yellow-color);
+}
+
+.thankYou-btn:hover{
+    background-color: var(--yellow-hover-color);
+}
+
+/* thankyou section ends */

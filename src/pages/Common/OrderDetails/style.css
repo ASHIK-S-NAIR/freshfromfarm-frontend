@@ -1,0 +1,38 @@
+/* OrderDetails starts */
+
+.orderDetails-total-sec {
+  text-align: right;
+  font-weight: 500;
+  margin-bottom: 3em;
+}
+
+.orderDetails-total-sec span {
+  margin-right: 3em;
+  font-weight: 800;
+  color: var(--primary-color);
+  font-style: 0.75rem;
+}
+
+.orderDetails-total-sec p {
+  font-weight: 500;
+  font-size: 0.825rem;
+}
+
+.orderDetails-info-subsec {
+  margin-bottom: 1em;
+}
+
+.orderDetails-info-label {
+  font-size: 0.875rem;
+  color: var(--primary-color);
+  font-weight: 800;
+  margin-bottom: 0.4em;
+}
+
+.orderDetails-info-value {
+  font-size: 0.75rem;
+  color: var(--primary-color);
+  margin-bottom: 0.2em;
+  font-weight: 500;
+}
+/* OrderDetails ends */

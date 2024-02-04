@@ -1,0 +1,108 @@
+/* cardPayment section starts */
+
+.cardPayment-wrap {
+    display: grid;
+    place-items: center;
+    padding-bottom: 5em;
+    padding-top: 5em;
+  }
+  
+  .cardPayment-info-sec {
+    width: 40%;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,0.2);
+  }
+  
+  .cardPayment-delivery-details-sec {
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    border-radius: 8px;
+  }
+  
+  .cardpayment-delivery-details-header {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 1em;
+  }
+  
+  .cardPayment-delivery-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cardPayment-delivery-details-single-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+  
+  .cardPayment-delivery-details-double-group {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 1em;
+  }
+  
+  .cardPayment-delivery-details-label {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 0.2em;
+  }
+  
+  .cardPayment-delivery-details-value {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-top: 0.3em;
+  }
+  
+  .cardPayment-delivery-details-subheader {
+    margin-top: 0.8em;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.8em;
+  }
+  
+  .cardPayment-payment-details-sec {
+    padding: 3em 2em;
+    border-radius: 8px;
+    background-color: rgba(233, 226, 49, 0.8);
+  }
+  
+  .cardPayment-payment-details-header {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 2em;
+  }
+  
+  .cardPayment-payment-details-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cardPayment-payment-details-group {
+    margin-bottom: 1.3em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cardPayment-payment-details-label {
+    font-size: 0.9rem;
+    margin-left: 0.5em;
+    cursor: pointer;
+  }
+  
+  .cardPayment-payment-details-btn {
+    font-size: 1rem;
+    background-color: var(--main-color);
+    padding: 1em 1em;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 3em;
+  }
+  
+  /* cardPayment section ends */

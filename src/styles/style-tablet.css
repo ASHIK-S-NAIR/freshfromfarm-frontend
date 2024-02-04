@@ -1,0 +1,286 @@
+@media screen and (max-width: 1024px ){
+    /* general settings starts */
+
+    .wrap{
+        width: 92%;
+    }
+    /* general settings ends */
+
+    /* nav section starts */
+
+    .nav-wrap-mobile{
+        display: none;
+    }
+
+    .nav-wrap{
+        height: 4em;
+    }
+
+    .nav-link{
+        font-size: 0.875rem;
+    }
+
+    .nav-logo{
+        font-size: 1.563rem;
+    }
+
+    .nav-btn{
+        font-size: 0.875rem;
+    }
+
+    .black-background{
+        /* width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.42);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 5; */
+    }
+    
+    .popup-big-sec{
+        width: 34.375em;
+        /* height: auto; */
+        /* background-color: #fff; */
+        /* border-radius: 10px; */
+        /* box-shadow: 0px, 4px, 15px, 10px rgba(0,0,0,0.1); */
+        padding: 2.2em 2.2em;
+        margin-top: 4em;
+    }
+    
+    .popup-head-sec{
+        /* display: flex; */
+        /* justify-content: space-between; */
+        margin-bottom: 1.8em;
+    }
+    
+    .popup-header{
+        font-size: 1.375rem;
+        /* font-weight: 500; */
+        /* color: var(--primary-color); */
+    }
+    
+    .cross-sec{
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        /* flex-direction: column; */
+        /* width: auto; */
+        /* height: auto; */
+        /* cursor: pointer; */
+    }
+    
+    .cross-one,
+    .cross-two{
+        /* background-color: #000000; */
+        width: 1.375em;
+        /* height: 3px; */
+        /* border-radius: 1em; */
+    }
+    
+    .cross-one{
+        transform: translateY(0.71em) rotate(45deg);
+    
+    }
+    
+    .cross-two{
+        transform: translateY(-0.71em) rotate(-45deg);
+    }
+    
+    .popup-form-group{
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+    
+    .popup-form-single-group{
+        margin-bottom: 1.3em;
+    }
+    
+    .popup-form-double-group{
+        /* display: grid; */
+        /* grid-template-columns: repeat(2, 1fr); */
+        column-gap: 1em;
+        margin-bottom: 1.3em;
+    }
+    
+    .popup-form-label{
+        font-size: 0.75rem;
+        /* margin-bottom: 0.3em; */
+        /* color: var(--primary-color); */
+        /* font-weight: 400; */
+    }
+    
+    .popup-form-input{
+        height: 1.813em;
+        /* width: 100%; */
+        /* border: 1px solid rgba(0,0,0,0.3); */
+        /* padding-left: 0.8em; */
+        font-size: 0.9rem;
+    }
+    
+    .popup-form-sec-group-header{
+        font-size: 0.75rem;
+        /* color: var(--primary-color); */
+        /* font-weight: 500; */
+        margin-bottom: 1.3em;
+    }
+    
+    .popup-form-btn{
+        /* background-color: #000000; */
+        font-size: 0.0.813rem;
+        height: 2.5em;
+        /* width: 100%; */
+        /* border-radius: 5px; */
+        /* box-shadow: 0px, 4px, 15px, 10px rgba(0,0,0,0.1); */
+        /* color: #fff; */
+        /* margin-top: 1em; */
+    }
+    
+    .errorMessage-sec{
+        /* z-index: 1000; */
+        /* width: auto; */
+        /* height: auto; */
+        /* background-color: rgb(242, 18, 18); */
+        /* position: absolute; */
+        /* right: 0; */
+        /* top: 2em; */
+        /* display: flex; */
+        column-gap: 0.6em;
+        padding: 0.8em 0.6em;
+        /* border-radius: 5px; */
+        /* box-shadow: 0px, 4px, 15px, 10px rgba(0,0,0,0.1); */
+        /* margin-right: 1em; */
+    }
+    
+    .errorMessage-cross-sec{
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        /* flex-direction: column; */
+        /* width: auto; */
+        /* height: auto; */
+        /* cursor: pointer; */
+    }
+    
+    .errorMessage-cross-one,
+    .errorMessage-cross-two{
+        /* background-color: #ffffff; */
+        /* width: 0.8em; */
+        /* height: 2px; */
+        /* border-radius: 1em; */
+    }
+    
+    .errorMessage-cross-one{
+        transform: translateY(0.39em) rotate(45deg);
+    
+    }
+    
+    .errorMessage-cross-two{
+        transform: translateY(-0.39em) rotate(-45deg);
+    }
+    
+    .errorMessage-msg{
+        /* color: #ffffff; */
+        font-size: 0.75rem;
+        /* font-weight: 200; */
+    }
+    
+    /* nav section ends */
+
+    /* shop section starts */
+
+    .products-wrap{
+        grid-template-columns: repeat(4, 11.75em);
+    }
+
+    .product-sec{
+        height: 16.5em;
+        padding: 0.8em;
+    }
+
+    .product-category-sec{
+        width: 3.5em;
+        height: 1em;
+    }
+
+    .product-category{
+        font-size: 0.625rem;
+    }
+
+    .product-name{
+        font-size: 0.875rem;
+    }
+
+    .product-stock{
+        font-size: 0.625rem;
+    }
+
+    .product-price{
+        font-size: 1.125rem;
+    }
+
+    /* shop section ends */
+
+    /* productDetail section starts */
+
+    .productDetail-img-sec{
+        padding-right: 2.3em;
+    }
+
+    .productDetail-img-container{
+        width: 18.75em;
+        height: 18.75em;
+    }
+
+    .productDetail-category-sec{
+        width: 6em;
+        height: 1.6em;
+    }
+
+    .productDetail-category{
+        font-size: 0.813rem;
+    }
+
+    .productDetail-info{
+        padding-left: 2.3em;
+    }
+
+    .productDetail-name{
+        font-size: 1.563rem;
+    }
+
+    .productDetail-price{
+        font-size: 1.063rem;
+    }
+
+    .productDetail-description{
+        font-size: 0.813rem;
+    }
+
+    .productDetail-stock{
+        font-size: 1rem;
+    }
+
+    .productDetail-quantity-p{
+        font-size: 0.75rem;
+    }
+
+    .productDetail-quantity{
+        width: 3.5em;
+        height: 1.688em;
+        font-size: 0.875rem;
+    }
+
+    .productDetail-btn{
+        font-size: 0.938rem;
+        width: 13.25em;
+        height: 2.5em;
+    }
+
+/* productDetail section ends */
+}
